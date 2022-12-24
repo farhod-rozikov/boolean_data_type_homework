@@ -7,7 +7,7 @@ def main(a):
         bool
     """
     # Write your code here
-    bool = a >= 0
+    bool = a >= 0 and a % 1 == 0
     return bool
 
 print(main(4))
